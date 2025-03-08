@@ -6,3 +6,5 @@ Install packages using npm -i
 
 If you have large json file or large amount of data to transfer from sql to mongodb so at that moment you can use this script file.
 It is read data in stream and so if your server is limited to ram and load more data it work efficiently.
+
+#KAL-EL
