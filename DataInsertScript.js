@@ -22,9 +22,8 @@ const collectionName = "load_New";
 const Schema = mongoose.Schema;
 const itemSchema = new Schema({}, { strict: false });
 const collection = mongoose.model(collectionName, itemSchema);
-
-
-const batchSize = 4;   // Define How many Records you want to insert 10000,50000 whatever
+ 
+const batchSize = 10000;   // Define How many Records you want to insert 10000,50000 whatever
 let batch = [];
 let count = 0;
 let totalReords = 0;
